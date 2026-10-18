@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 import asyncio
 import time
@@ -16,11 +17,6 @@ async def measure_runtime() -> float:
         async_comprehension(),
         async_comprehension()
     )
-
-    end = time.perf_counter()
-    return end - start
-        async_comprehension()
-    
 
     end = time.perf_counter()
     return end - start
